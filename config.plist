@@ -205,10 +205,8 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Timeout</key>
-		<string>10</string>
 		<key>Arguments</key>
-		<string>dart=0 -no_compat_check nv_disable=1</string>
+		<string>dart=0 -no_compat_check -v -wegnoegpu</string>
 		<key>CustomLogo</key>
 		<false/>
 		<key>Debug</key>
@@ -225,6 +223,8 @@
 		<true/>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>10</integer>
 	</dict>
 	<key>CPU</key>
 	<dict>
